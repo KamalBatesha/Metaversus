@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { slideIn, staggerContainer, textVariant } from "../utils/motion";
-import Image from "next/image";
 
 const Hero = () => (
   <section className=" yPaddings sm:pl-16 pl-6">
@@ -30,12 +29,12 @@ const Hero = () => (
         variants={slideIn("right", "tween", 0.2, 1)}
         className=" relative w-full -mt-[12px] md:-mt-[20px]"
       >
-        <div className=" relative pl-[20%]  rounded-tl-[140px] z-0 -top-[30px]   sm:h-[430px] h-[250px]   ">
+        <div className=" relative flex justify-end    rounded-tl-[140px] z-0 -top-[30px]   sm:h-[430px] h-[250px]   ">
           <div className="absolute inset-0 hero-gradient z-0 w-full h-full " />
           <img
             src="/cover.png"
             alt="cover image"
-            className=" block  w-full object-cover h-full relative rounded-tl-[140px] z-10"
+            className=" block  w-[80%] object-cover h-full relative rounded-tl-[140px] z-10"
           />
         </div>
         <a href="#explore">
