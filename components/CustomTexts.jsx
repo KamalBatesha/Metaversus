@@ -19,4 +19,14 @@ export const TypingText = ({ title, textStyle }) => (
   </motion.p>
 );
 
-export const TitleText = ({ title, textStyle }) => <h2>Title Text</h2>;
+export const TitleText = ({ title, textStyle }) => (
+  <motion.h2
+    variants={textVariant2}
+    initial="hidden"
+    whileInView="show"
+    viewport={{ once: false, amount: 0.99 }}
+    className={`mt-[8px] font-bold md:text-[64px] text-[40px] text-white ${textStyle}`}
+  >
+    {title}
+  </motion.h2>
+);
