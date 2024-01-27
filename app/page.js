@@ -9,6 +9,7 @@ import {
   WhatsNew,
   World,
 } from "../sections";
+import "../styles/globals.css";
 
 const Page = () => (
   <div className=" bg-primary-black overflow-hidden">
