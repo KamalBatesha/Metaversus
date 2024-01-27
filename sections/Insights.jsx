@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { staggerContainer, fadeIn } from "../utils/motion";
+import { staggerContainer } from "../utils/motion";
 import { TypingText, TitleText, InsightCard } from "../components";
 import { insights } from "../constants/index";
 

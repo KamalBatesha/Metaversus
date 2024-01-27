@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { staggerContainer, fadeIn } from "../utils/motion";
+import { fadeIn } from "../utils/motion";
 const InsightCard = ({ index, imgUrl, title, subtitle }) => (
   <motion.div
     variants={fadeIn("up", "spring", index * 0.5, 1)}
