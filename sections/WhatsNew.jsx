@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import { TypingText, TitleText, NewFeatures } from "../components";
 import { staggerContainer, fadeIn, planetVariants } from "../utils/motion";
-import { startingFeatures } from "../constants/index";
 import { newFeatures } from "../constants/index";
 
 const WhatsNew = () => (
